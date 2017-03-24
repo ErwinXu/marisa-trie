@@ -443,16 +443,16 @@ static CYTHON_INLINE float __PYX_NAN() {
 
 #define __PYX_HAVE__trie
 #define __PYX_HAVE_API__trie
-#include <marisa/query.h>
-#include <marisa/key.h>
-#include <marisa/agent.h>
+#include "marisa/query.h"
+#include "marisa/key.h"
+#include "marisa/agent.h"
 #include "ios"
 #include "new"
 #include "stdexcept"
 #include "typeinfo"
-#include <marisa/base.h>
-#include <marisa/keyset.h>
-#include <marisa/trie.h>
+#include "marisa/base.h"
+#include "marisa/keyset.h"
+#include "marisa/trie.h"
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */

@@ -443,9 +443,9 @@ static CYTHON_INLINE float __PYX_NAN() {
 
 #define __PYX_HAVE__agent
 #define __PYX_HAVE_API__agent
-#include <marisa/query.h>
-#include <marisa/key.h>
-#include <marisa/agent.h>
+#include "marisa/query.h"
+#include "marisa/key.h"
+#include "marisa/agent.h"
 #include "ios"
 #include "new"
 #include "stdexcept"

@@ -451,13 +451,13 @@ static CYTHON_INLINE float __PYX_NAN() {
 #include "typeinfo"
 #include <istream>
 #include <sstream>
-#include <marisa/query.h>
-#include <marisa/key.h>
-#include <marisa/keyset.h>
-#include <marisa/agent.h>
-#include <marisa/base.h>
-#include <marisa/trie.h>
-#include <marisa/iostream.h>
+#include "marisa/query.h"
+#include "marisa/key.h"
+#include "marisa/keyset.h"
+#include "marisa/agent.h"
+#include "marisa/base.h"
+#include "marisa/trie.h"
+#include "marisa/iostream.h"
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */

@@ -443,7 +443,7 @@ static CYTHON_INLINE float __PYX_NAN() {
 
 #define __PYX_HAVE__base
 #define __PYX_HAVE_API__base
-#include <marisa/base.h>
+#include "marisa/base.h"
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */

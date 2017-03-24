@@ -443,9 +443,9 @@ static CYTHON_INLINE float __PYX_NAN() {
 
 #define __PYX_HAVE__keyset
 #define __PYX_HAVE_API__keyset
-#include <marisa/query.h>
-#include <marisa/key.h>
-#include <marisa/keyset.h>
+#include "marisa/query.h"
+#include "marisa/key.h"
+#include "marisa/keyset.h"
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
